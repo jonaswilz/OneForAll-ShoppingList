@@ -1,6 +1,6 @@
 # One for All - Shopping List
 
-[<img src="img/WirVsVirus-Logo.png" alt="WirVsVirus-Logo" height="300">]
+<img src="img/WirVsVirus-Logo.png" alt="WirVsVirus-Logo" height="300">
 
 Dear Developer, Manager and/or Grocery List Friend,
 
@@ -15,7 +15,8 @@ To make shopping as efficient and corona compatible as possible the best is, if 
 supermarket can be planned well
 
 Summary-List example: 
-[<img src="img/SummaryList-Story.PNG" alt="SummaryList-Story" height="300">]
+
+<img src="img/SummaryList-Story.PNG" alt="SummaryList-Story" height="150">
 
 * Enables the export and import of a list in a standardized format in order to send a list (e.g via WhatsApp, Facebook, ... ) to the person who is going to shop 
 
