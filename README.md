@@ -72,9 +72,9 @@ Category
 - https://pouchdb.com/ - PouchDB
 - https://www.npmjs.com/package/jsdoc - JSDoc
 
-## For react-native beginners
+## For React-Native Beginners
 
-* install node.js, jdk8 and android studio according to https://reactnative.dev/docs/environment-setup
+* Install node.js, jdk8 and android studio according to https://reactnative.dev/docs/environment-setup
 * Take a look at a react-native tutorial e.g. https://www.youtube.com/watch?v=Hf4MJH0jDb4
 
 
@@ -86,7 +86,7 @@ Category
 
 2. Clone this repo:
 
-`git clone https://github.com/jonaswilz/OneForAll-ShoppingList.git
+`git clone https://github.com/jonaswilz/OneForAll-ShoppingList.git`
 
 3. cd into the repo directory:
 
@@ -125,4 +125,4 @@ chmod +x node_modules/react-native/scripts/*.command
 ```
 
 ## Legal
-The core of this application is based on &copy; 2020 https://github.com/ibm-watson-data-lab/shopping-list-react-native-pouchdb.git licensed under Apache 2.0 https://www.apache.org/licenses/LICENSE-2.0.html
+The application is based on &copy; 2020 https://github.com/ibm-watson-data-lab/shopping-list-react-native-pouchdb.git this repo is licensed under Apache 2.0 https://www.apache.org/licenses/LICENSE-2.0.html
