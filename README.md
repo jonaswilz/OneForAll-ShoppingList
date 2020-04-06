@@ -10,17 +10,16 @@ To make shopping as efficient and corona compatible as possible the best is, if 
 
 **To do so, it would be great if we could extend this simple shopping list app with the following featurs!**
 
-* Summarizes the grocery lists of the several households in one ​Summary-List
-* The Summary-List lists the name of the beggars behind the product he wishes
-* Still keeps the ​Single-Lists​ of every household so that the Summary-List can be split again during or after the shopping tour
-* Categorizes the products so that the shopping tour and the walk through the
-supermarket can be planned well
+* Summarization of the grocery lists of the several households in one ​Summary-List
+* Listing the name of the beggars behind a product in the Summary-List
+* Still keeping the ​Single-Lists​ of every household, so that the Summary-List can be split again during or after the shopping tour
+* Categorization of the products, so that the shopping tour and the walk through the supermarket can be planned well
 
 Summary-List example: 
 
 <img src="img/SummaryList-Story.PNG" alt="SummaryList-Story" height="200">
 
-* Enables the export and import of a list in a standardized format in order to send a list (e.g via WhatsApp, Facebook, ... ) to the person who is going to shop 
+* Export and import of a shopping list in a standardized format in order to send a list (e.g via WhatsApp, Facebook, ... ) to the person who is going to shop 
 
 Datastructure example:
 ```ruby
@@ -135,4 +134,4 @@ chmod +x node_modules/react-native/scripts/*.command
 ```
 
 ## Legal
-The application is based on &copy; 2020 https://github.com/ibm-watson-data-lab/shopping-list-react-native-pouchdb.git this repo is licensed under Apache 2.0 https://www.apache.org/licenses/LICENSE-2.0.html
+The application is based on &copy; 2020 https://github.com/ibm-watson-data-lab/shopping-list-react-native-pouchdb.git which is licensed under Apache 2.0 https://www.apache.org/licenses/LICENSE-2.0.html
