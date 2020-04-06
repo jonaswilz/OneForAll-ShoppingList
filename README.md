@@ -6,7 +6,9 @@ Dear Developer, Manager and/or Grocery List Friend,
 
 The Corona crisis confronts us all with new challenges. Elderly people should no longer go outside, suspicious cases must stay at home and we should not meet our friends. Nevertheless, we have to supply ourselves with food, medicine and hygiene articles.
 
-To make shopping as efficient and corona compatible as possible the best is, if one person does the shopping for several households at once - and we should provide a good grocery list app for the person, which
+To make shopping as efficient and corona compatible as possible the best is, if one person does the shopping for several households at once - and we should provide a good grocery list app for the person.
+
+**To do so, it would be great if we could extend this simple shopping list app with the following featurs!**
 
 * Summarizes the grocery lists of the several households in one ​Summary-List
 * The Summary-List lists the name of the beggars behind the product he wishes
@@ -16,7 +18,7 @@ supermarket can be planned well
 
 Summary-List example: 
 
-<img src="img/SummaryList-Story.PNG" alt="SummaryList-Story" height="150">
+<img src="img/SummaryList-Story.PNG" alt="SummaryList-Story" height="200">
 
 * Enables the export and import of a list in a standardized format in order to send a list (e.g via WhatsApp, Facebook, ... ) to the person who is going to shop 
 
@@ -24,12 +26,12 @@ Datastructure example:
 ```ruby
 Shopping List
 
- {"sID":"2020-03-28-1746-487956235841",
- "sName":"my Shopping List",
- "uName":"Peter Mayer",
- "p_001":{Product},
- "p_002":{Product},
- "p_005":{Product}
+{"sID":"2020-03-28-1746-487956235841",
+"sName":"my Shopping List",
+"uName":"Peter Mayer",
+"p_001":{Product},
+"p_002":{Product},
+"p_005":{Product}
 }
 
 Product
@@ -60,7 +62,6 @@ Category
 
 ```
 
-**It would be great if you could help to extend this app with de described featurs!**
 
 ## Tools
 
@@ -71,10 +72,13 @@ Category
 - https://pouchdb.com/ - PouchDB
 - https://www.npmjs.com/package/jsdoc - JSDoc
 
+## For react-native beginners
 
-## Quick Start - with React Native and PouchDB
+* install node.js, jdk8 and android studio according to https://reactnative.dev/docs/environment-setup
+* Take a look at a react-native tutorial e.g. https://www.youtube.com/watch?v=Hf4MJH0jDb4
 
-Shopping List is an Offline First demo [Progressive Web App | hybrid mobile app | native mobile app | desktop app] built using [React Native](https://facebook.github.io/react-native/ ) and [PouchDB](https://pouchdb.com/). 
+
+## Quick Start 
 
 1. Install the React Native CLI:
 
