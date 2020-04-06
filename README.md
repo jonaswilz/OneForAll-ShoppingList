@@ -8,7 +8,7 @@
 
 # Shopping List - with React Native and PouchDB
 
-Shopping List is an Offline First demo [Progressive Web App | hybrid mobile app | native mobile app | desktop app] built using [React Native](https://facebook.github.io/react-native/ ) and [PouchDB](https://pouchdb.com/). [This app is part of a series of Offline First demo apps, each built using a different stack.](https://github.com/ibm-watson-data-lab/shopping-list) 
+Shopping List is an Offline First demo [Progressive Web App | hybrid mobile app | native mobile app | desktop app] built using [React Native](https://facebook.github.io/react-native/ ) and [PouchDB](https://pouchdb.com/). 
 
 ## Quick Start
 
@@ -56,5 +56,5 @@ chmod +x node_modules/react-native/scripts/*.sh
 chmod +x node_modules/react-native/scripts/*.command
 ```
 
-# License
-[Apache 2.0](LICENSE)
+### Legal
+The core of this application is based on &copy; 2020 https://github.com/ibm-watson-data-lab/shopping-list-react-native-pouchdb.git licensed under [Apache 2.0] https://www.apache.org/licenses/LICENSE-2.0.html

@@ -16,7 +16,7 @@ class ShoppingListScreen extends Component {
     ),
     headerTintColor: '#FFFFFF',
     headerStyle: {
-      backgroundColor: '#4A90E2',
+      backgroundColor: '#99cb42',
       paddingRight: 10
     }
   });
