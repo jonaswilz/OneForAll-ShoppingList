@@ -1,6 +1,6 @@
 # One for All - Shopping List
 
-![Logo][img\WirVsVirus-Logo.png]
+![Logo][/img/WirVsVirus-Logo.png]
 
 Dear Developer, Manager and/or Grocery List Friend,
 
@@ -15,7 +15,7 @@ To make shopping as efficient and corona compatible as possible the best is, if 
 supermarket can be planned well
 
 Summary-List example: 
-![List][img/SummaryList-Story.PNG]
+![List][/img/SummaryList-Story.PNG]
 
 * Enables the export and import of a list in a standardized format in order to send a list (e.g via WhatsApp, Facebook, ... ) to the person who is going to shop 
 
@@ -58,6 +58,8 @@ Category
 } 
 
 ```
+
+**It would be great if you could help to extend this app with de describes featurs!**
 
 ## Tools
 
@@ -118,4 +120,4 @@ chmod +x node_modules/react-native/scripts/*.command
 ```
 
 ## Legal
-The core of this application is based on &copy; 2020 https://github.com/ibm-watson-data-lab/shopping-list-react-native-pouchdb.git licensed under [Apache 2.0] https://www.apache.org/licenses/LICENSE-2.0.html
+The core of this application is based on &copy; 2020 https://github.com/ibm-watson-data-lab/shopping-list-react-native-pouchdb.git licensed under Apache 2.0 https://www.apache.org/licenses/LICENSE-2.0.html
