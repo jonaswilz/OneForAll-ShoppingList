@@ -1,3 +1,64 @@
+# One for All - Shopping List
+
+![Logo][img\WirVsVirus-Logo.png]
+
+Dear Developer, Manager and/or Grocery List Friend,
+
+The Corona crisis confronts us all with new challenges. Elderly people should no longer go outside, suspicious cases must stay at home and we should not meet our friends. Nevertheless, we have to supply ourselves with food, medicine and hygiene articles.
+
+To make shopping as efficient and corona compatible as possible the best is, if one person does the shopping for several households at once - and we should provide a good grocery list app for the person, which
+
+* Summarizes the grocery lists of the several households in one ​Summary-List
+* The Summary-List lists the name of the beggars behind the product he wishes
+* Still keeps the ​Single-Lists​ of every household so that the Summary-List can be split again during or after the shopping tour
+* Categorizes the products so that the shopping tour and the walk through the
+supermarket can be planned well
+
+Summary-List example: 
+![List][img/SummaryList-Story.PNG]
+
+* Enables the export and import of a list in a standardized format in order to send a list (e.g via WhatsApp, Facebook, ... ) to the person who is going to shop 
+
+Datastructure example:
+```ruby
+Shopping List
+
+ {"sID":"2020-03-28-1746-487956235841",
+ "sName":"my Shopping List",
+ "uName":"Peter Mayer",
+ "p_001":{Product},
+ "p_002":{Product},
+ "p_005":{Product}
+}
+
+Product
+
+{"pName":"Apples",
+ "pAmount":2,
+ "pUnit":[Unit],
+ "pCat":{Category}
+}
+
+Units
+
+[kg, g, L, ml, St, Ka]
+
+Category
+
+{"01":"Obst & Gemüse",
+ "02":"Milchprodukt",
+ "03":"Fleisch & Wurst",
+ "04":"Nudeln, Reis & Backwaren",
+ "05":"Haltbares",
+ "06":"Süßes & Salziges",
+ "07":"Sonstiges",
+ "08":"Drogerieprodukt",
+ "09":"Medizin",
+ "10":"Getränke"
+} 
+
+```
+
 ## Tools
 
 - https://facebook.github.io/react-native/ - React Native
@@ -5,12 +66,12 @@
 - http://redux.js.org/ - Redux
 - https://github.com/gaearon/redux-thunk - Redux Thunk
 - https://pouchdb.com/ - PouchDB
+- https://www.npmjs.com/package/jsdoc - JSDoc
 
-# Shopping List - with React Native and PouchDB
+
+## Quick Start - with React Native and PouchDB
 
 Shopping List is an Offline First demo [Progressive Web App | hybrid mobile app | native mobile app | desktop app] built using [React Native](https://facebook.github.io/react-native/ ) and [PouchDB](https://pouchdb.com/). 
-
-## Quick Start
 
 1. Install the React Native CLI:
 
@@ -18,11 +79,11 @@ Shopping List is an Offline First demo [Progressive Web App | hybrid mobile app 
 
 2. Clone this repo:
 
-`git clone https://github.com/ibm-watson-data-lab/shopping-list-react-native-pouchdb`
+`git clone https://github.com/jonaswilz/OneForAll-ShoppingList.git
 
 3. cd into the repo directory:
 
-`cd shopping-list-react-native-pouchdb`
+`cd OneForAll-ShoppingList`
 
 4. Install dependencies:
 
@@ -56,5 +117,5 @@ chmod +x node_modules/react-native/scripts/*.sh
 chmod +x node_modules/react-native/scripts/*.command
 ```
 
-### Legal
+## Legal
 The core of this application is based on &copy; 2020 https://github.com/ibm-watson-data-lab/shopping-list-react-native-pouchdb.git licensed under [Apache 2.0] https://www.apache.org/licenses/LICENSE-2.0.html
