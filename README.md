@@ -61,6 +61,16 @@ Category
 } 
 
 ```
+## Current App
+Screenshots of the current very simple App:
+ <div class="row">
+  <div class="column">
+    <img src="img\Listenübersicht-Ansicht.PNG" alt="Listenübersicht-Ansicht" style="width:20%">
+  </div>
+  <div class="column">
+    <img src="img\SingleList-Ansicht.PNG" alt="SingleList-Ansicht" style="width:20%">
+  </div>
+</div> 
 
 
 ## Tools
