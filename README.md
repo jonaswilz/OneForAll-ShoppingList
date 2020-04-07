@@ -71,6 +71,32 @@ Screenshots of the current very simple App:
   </div>
 </div> 
 
+## UI/UX
+
+Main Page
+<div>
+<img src="img\main_screen.jpg" alt="main_screen" style="width:40%">
+</div>
+
+Shopping List
+<div>
+<img src="img\shopping_list.jpg" alt="shopping_list.jpg" style="width:40%">
+</div>
+
+Shopping Tour
+<div>
+<img src="img\shopping_tour_screen.jpg" alt="shopping_list.jpg" style="width:40%">
+</div>
+
+Add a Product
+<div>
+<img src="img\add_product_screen.jpg" alt="img\add_product_screen.jpg" style="width:40%">
+</div>
+
+Add a List
+<div>
+<img src="img\add_list.jpg" alt="img\add_list.jpg" style="width:40%">
+</div>
 
 ## Tools
 
